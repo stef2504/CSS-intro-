@@ -1,0 +1,13 @@
+/* css styles for demo page */
+p {
+	color: red;
+	text-align: center;
+}
+h1,
+h2,
+h3 {
+	color: #999;
+}
+span {
+	color: green;
+}

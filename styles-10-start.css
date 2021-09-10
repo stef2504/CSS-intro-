@@ -1,0 +1,13 @@
+	/* css styles for demo page */
+	
+	* {box-sizing:border-box;}
+	.body {width:500px; border:1px solid green;
+		margin:10px auto;  padding:15px;
+		background-color:#fdb;}	
+	
+	p {color:#333;}
+	h1,h2,h3 {color:#777777;}
+	span {color:green;}
+	
+
+

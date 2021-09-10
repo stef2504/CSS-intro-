@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Introduction to CSS</title>
+<link rel="stylesheet" href="styles.css" type="text/css" media="all"/>
+<style type="text/css">
+</style>
+</head>
+
+<body>
+<!-- Body -->
+<div class="body">
+  <div class="container"> 
+    <!--   Header -->
+    <div class="row-fluid">
+      <div class="span3">
+        <p><a class="brand pull-left" href="//index.htm">OSTraining CSS Series</a> </p>
+      </div>
+      <div class="span9">
+        <div class="header-search pull-right">
+          <div class="search"> </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navigation" role="navigation">
+      <ul id="mainmenu" class="nav menu nav-pills">
+        <li class="current active"><a href="introduction.htm">Introduction to CSS</a></li>
+        <li><a href="styling-text.htm">Styling Text and Lists</a></li>
+        <li><a href="images-page-layout.htm">Images, Page Layout and Navigation</a></li>
+        <li><a href="not-your-own.htm">Working with Somebody Else's CSS</a></li>
+        <li><a href="cool-stuff.htm">Cool Stuff in CSS3</a></li>
+        <li><a href="responsive.htm">Responsive Layouts and styling for Print</a></li>
+        <li><a href="tables-forms.htm">Tables, Forms, Compilers, Troubleshooting</a></li>
+      </ul>
+    </nav>
+    <div class="banner">A Banner could go here!</div>
+    <div class="row-fluid"> 
+      <!-- Start Left -->
+      <div id="left-content" class="span3">
+        <div class="sidebar-nav">
+          <ul class="check-list">
+            <li><a href="http://ostraining.com">OSTraining</a></li>
+            <li><a href="http://www.w3schools.com/html/">HTML Tutorial</a></li>
+            <li><a href="http://www.w3schools.com/css/">CSS3 Tutorial</a></li>
+            <li><a href="http://css3generator.com/">CSS3 generator</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Start Left --> 
+      <!-- Start Content -->
+      <div id="content" role="main" class="span6">
+        <div class="body-top">This is an inner-top module/widget area that sits above the main content.</div>
+        <div class="main-content">
+          <h1>Introduction to CSS</h1>
+        
+          <p>The topics we will cover in this segment of the OSTraining CSS series are <a href="#toc">listed below</a>.</p>
+          <p>This site will be our playground to try things out.  New "playground sites" will be available for each segment of the series, with new features added, as needed.</p>
+          <p>The html code for this playground site is structured following the structure of the OS Training Breeze template for Joomla3. <a href="http://breeze-joomla.ostraining.com/" target="_blank">See a working demo of the Joomla template.</a></p>
+          <h2>Subheadings</h2>
+          <p>Think of the h1...h6 elements like outlining, with h1 being the main idea,  h2 being a sub-topic of the main idea, h3 a sub-topic of the h2, etc. </p>
+          <h2>Lists</h2>
+          <p>Lists are also very useful for <span>organizing content for the reader</span>.</p>
+          <h3>Unordered Lists</h3>
+          <p>The unordered list element is used to produce "bulleted" lists and is appropriate whenever there is no particular sort order for the items. <span>An unordered list does not have to have bullets</span>, it can have other markings, images, or nothing but the text.  Here's a sample:</p>
+          <ul>
+            <li>headings</li>
+            <li>paragraphs</li>
+            <li>blockquotes</li>
+            <li>lists</li>
+          </ul>
+          <h3>Ordered Lists</h3>
+          <p>An ordered list can be set to display with numbers, roman numerals, a.b.c., or bullets, or nothing!  This is appropriate whenever there is a certain order to the list items, whether you want to display numbers or not. Here's a sample:</p>
+          <h4>Videos in this class:</h4>
+          <ol id="toc">
+          	<li class="current active"><a href="introduction.htm">Introduction</a></li>
+            <li><a href="code-basics.htm">Code Basics</a></li>
+            <li><a href="where-and-how.htm">Where and how to add styles</a></li>
+            <li><a href="cascade.htm">The Cascade</a></li>
+            <li><a href="getting-specific.htm">Getting Specific</a></li>
+            <li><a href="specificity.htm">Specificity</a></li>
+            <li><a href="family-tree.htm">The Family Tree</a></li>
+            <li><a href="box-model.htm">The Box Model</a></li>
+            <li><a href="box-sizing.htm">Box Sizing</a></li>
+            <li><a href="what-can-you-do.htm">What can you do with a box?</a></li>
+            <li><a href="ways-to-add-color.htm">Ways to Add Color</a></li>
+            <li><a href="links.htm">Links and other hover effects</a></li>
+            <li><a href="browser-defaults.htm">Browser Default Styles</a></li>
+             <li><a href="get-organized.htm">Get (and Stay) Organized</a></li>
+            <li><a href="code-validation">Code Validation</a></li>
+          </ol>
+          <h2>Other useful html elements</h2>
+          <p>Even though this is a course on css, it is important to have a good grasp of html -- beyond the basic paragraph, header and list markup.  Using the right element and then writing styles for particular elements eliminates the need for adding classes to generic elements so often.</p>
+          <h3>Blockquote</h3>
+          <p>Blockquote is a container for a paragraph or paragraphs and can include a paragraph for the source of the quote and a "cite" element for the title of a work the quote comes from.  By default the "cite" element is styled with italics - and is more meaningful than just an "em" tag.</p>
+          <blockquote>
+          <p>Get to know the range of html elements available and use them appropriately!</p>
+          <p>This advice brought to you by: <cite>Barb Ackemann</cite></p>
+          </blockquote>
+          <h3>Definition or Description Lists</h3>
+          <p>This lists structure sets up a relationship between two or more items.  Think of a dictionary where a word is paired with it's definition -- or more than one definition. Here's an example:</p>
+          <dl>
+            <dt>HTML</dt>
+            <dd>The markup of the content, indicating structure and hierarchy</dd>
+            <dt>CSS</dt>
+            <dd>The markup, usually in a linked but separate document, that indicates how the content should be presented -- fonts, colors, sizes, positions, etc.</dd>
+          </dl>
+        </div>
+        <div class="body-bottom">This is an inner-top module/widget area that sits below the main content.</div>
+      </div>
+      <!-- End Content -->
+      <div id="right-content" class="span3"> 
+        <!-- Start Right -->
+        <div class="right">
+          <p> This represents a sidebar module or widget. </p>
+        </div>
+        <!-- End Right --> 
+      </div>
+    </div>
+    <div class="row-fluid" id="bottom"> 
+      
+      <!-- Start bottom-a -->
+      <div id="bottom-a" >Bottom A </div>
+      <!-- End bottom-a --> 
+      
+      <!-- Start bottom-b -->
+      <div id="bottom-b" >Bottom B </div>
+      <!-- End bottom-b --> 
+      
+      <!-- Start bottom-c -->
+      <div id="bottom-c" > Bottom C</div>
+      <!-- End bottom-c --> 
+      
+    </div>
+    
+    <!-- End bottom --> 
+  </div>
+</div>
+<!-- Start Footer -->
+<footer class="footer" role="contentinfo">
+<div class="container">
+<div class="footer-content">This is footer content</div>
+<!-- Start bottom -->
+
+<div class="row-fluid" id="footer"> 
+  
+  <!-- Start footer-a -->
+  <div id="footer-a" class="span4">
+    <div class="modtitle ">
+      <h3 class="page-header">Videos in this Course:</h3>
+      <div class="custom"  >
+        <ul>
+          <li class="current active"><a href="code-basics.htm">Code Basics</a></li>
+          <li><a href="where-and-how.htm">Where and how to add styles</a></li>
+          <li><a href="getting-specific.htm">Getting Specific</a></li>
+          <li><a href="get-organized.htm">Get (and Stay) Organized</a></li>
+          <li><a href="family-tree.htm">The Family Tree</a></li>
+          <li><a href="box-model.htm">The Box Model</a></li>
+          <li><a href="what-can-you-do.htm">What can you do with a box?</a></li>
+          <li><a href="browser-defaults.htm">Browser Default Styles</a></li>
+          <li><a href="list-styles.htm">List Styles</a></li>
+          <li><a href="links.htm">Links and other hover effects</a></li>
+          <li><a href="code-validation">Code Validation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End footer-a --> 
+  
+  <!-- Start footer-b -->  
+  <div id="footer-b" >Footer b </div>
+  <!-- End footer-b --> 
+  
+  <!-- Start footer-c -->
+  <div id="footer-c" >Footer c </div>
+  <!-- End footer-c --> 
+</div>
+</div>
+<!-- End footer -->
+<div class="row-fluid copyright-ost">
+  <div class="span4">&copy; Barb Ackemann 2015</div>
+  <div class="span8">based on OSTraining Breeze Template for Joomla 3</div>
+</div>
+</footer>
+<!-- End Footer -->
+
+</body>
+</html>
