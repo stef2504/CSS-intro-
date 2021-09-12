@@ -1,13 +1,40 @@
-/* css styles for demo page */
+/* css styles for demo page, # is for id and . is for classes */
+
 p {
 	color: red;
-	text-align: center;
+	text-align: left;
 }
+
 h1,
 h2,
 h3 {
 	color: #999;
+	text-align: center;
 }
+
 span {
 	color: green;
 }
+
+p {
+	color: blueviolet;
+}
+
+ul.nav {
+	text-align: center;
+	background-color: tomato;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.nav {
+	background-color: yellow;
+}
+
+.body > p {
+	columns: green !important;
+}
+
+/* cascade rules of overuling: inline --> embedded --> external sheet */
+/* source order is important, basically the last rule wins unless !important is added to rule */
+/* stopped at the box model part 2 video */
