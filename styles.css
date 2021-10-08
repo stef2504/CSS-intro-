@@ -1,10 +1,31 @@
 /* css styles for demo page, # is for id and . is for classes */
-
+* {
+	box-sizing: border-box;
+}
 p {
-	color: red;
+	color: red !important;
 	text-align: left;
 }
 
+p {
+	margin: 10px;
+	border: 0px;
+	border: 1px solid red;
+	border-width: 5px 3px;
+	padding: 10px;
+}
+.span3 {
+	width: 300px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.span9 {
+	width: 300px;
+	height: 100px;
+	padding: 50px;
+	border: 1px solid black;
+}
 h1,
 h2,
 h3 {
@@ -32,7 +53,7 @@ ul.nav {
 }
 
 .body > p {
-	columns: green !important;
+	columns: green;
 }
 
 /* cascade rules of overuling: inline --> embedded --> external sheet */
