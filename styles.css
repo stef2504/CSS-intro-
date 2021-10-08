@@ -30,7 +30,7 @@ span {
 
 ul.nav {
 	text-align: center;
-	background-color: tomato;
+	background-color: rgba(128, 0, 0, 0.5); /* red background with 50% opacity */
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 }
