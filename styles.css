@@ -4,6 +4,7 @@
 }
 
 .body {
+	background-image: url("strand.jpeg");
 	width: 500px;
 	border: 1px solid green;
 	margin: 10px auto;
